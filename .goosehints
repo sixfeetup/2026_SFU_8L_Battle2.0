@@ -1,0 +1,26 @@
+# Goose Hints: IndyPy 2025 — Battle of the Bots
+
+Project conventions
+
+- Slide authoring style
+  - Keep slide bullets ultra‑concise; move detail (lists, dates, links) into presenter notes
+  - Lead “What’s New” bullets with bolded category labels (e.g., **v2.0**, **Plugins**, **Hooks**, **MCP**)
+  - Maintain consistent style across tools (Aider, Claude Code, Cursor, Goose, Junie, Codex)
+  - MCP statements: don’t present MCP as new for Claude Code; note support since 2024 in notes if needed
+  
+- Presenter notes
+  - Always use a Markdown fenced block exactly:
+    ::: notes
+    - Keep notes concise (≤4 bullets) and actionable
+    - Add sources/links here (docs pages, changelogs)
+    - Use for speaker-only context, caveats, dates
+    :::
+  - Place the notes block immediately after the slide it annotates
+  
+- Formatting
+  - Use Markdown; avoid heavy formatting in bullets
+  - Use r-fit-text headings as in existing slides
+
+- Git
+  - Conventional Commit Message Formatting
+  - Commit slide edits with concise messages
